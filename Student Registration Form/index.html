@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <h1 align="center">Student Registration Form</h1>
+        <table>
+          <tr>
+            <td>
+              <label for="userRollno">Roll no. :</label>
+            </td>
+            <td>
+              <input type="number" name="" id="userRollno" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="firstName">Student Name :</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name=""
+                id="firstName"
+                placeholder="First Name"
+              />
+              -
+              <input
+                type="text"
+                name=""
+                id="lastName"
+                placeholder="Last Name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="fatherName">Father's Name :</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                placeholder="Father's Name"
+                id="fatherName"
+                name=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userdob">Date of birth : </label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="userdob"
+                placeholder="DD"
+                size="2"
+                name=""
+              />
+              -
+              <input
+                type="text"
+                id="usermob"
+                placeholder="MM"
+                size="2"
+                name=""
+              />
+              -
+              <input
+                type="text"
+                id="useryob"
+                placeholder="YYYY"
+                size="2"
+                name=""
+              />
+              (DD-MM-YYYY)
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userMobile">Mobile no. :</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                size="2"
+                id="ufhsioesr"
+                value="+91"
+                name=""
+                readonly
+              />
+              -
+              <input
+                type="tel"
+                id="userMobile"
+                placeholder="enter your number here"
+                name=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userMail">Emaik ID :</label>
+            </td>
+            <td>
+              <input type="email" id="userMail" placeholder="xyz@gmail.com" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userPassword">Password :</label>
+            </td>
+            <td>
+              <input type="password" id="userPassword" name="" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userGender">Gender :</label>
+            </td>
+            <td>
+              <label for="male">Male</label>
+              <input type="radio" id="male" name="genderHolder" />
+              <label for="female">Female</label>
+              <input type="radio" id="female" name="genderHolder" />
+              <label for="other">Others</label>
+              <input type="radio" id="other" name="genderHolder" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userDepartment">Department :</label>
+            </td>
+            <td>
+              <label for="cse">CSE</label>
+              <input type="checkbox" id="cse" name="" />
+              <label for="it">IT</label>
+              <input type="checkbox" id="it" name="" />
+              <label for="ece">ECE</label>
+              <input type="checkbox" id="ece" name="" />
+              <label for="civil">Civil</label>
+              <input type="checkbox" id="civil" name="" />
+              <label for="mech">Mech</label>
+              <input type="checkbox" id="mech" name="" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userCourse">Course :</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="userCourse"
+                list="couseid"
+                placeholder="----select course----"
+              />
+              <datalist id="couseid">
+                <option>Java DSA</option>
+                <option>C++ DSA</option>
+                <option>C DSA</option>
+                <option>JavaScript DSA</option>
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userPhotograph">Student Photo :</label>
+            </td>
+            <td>
+              <input type="file" id="userPhotograph" name="" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userCity">City :</label>
+            </td>
+            <td>
+              <input type="text" id="userCity" name="" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userAddress">Address :</label>
+            </td>
+            <td>
+              <textarea
+                name=""
+                id="userAddress"
+                placeholder="enter your address here"
+                rows="8"
+                cols="25"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Register Form" /></td>
+            <td><input type="reset" value="Reset Form" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

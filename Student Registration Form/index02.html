@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 align="center">Survey Form</h1>
+    <form>
+      <fieldset>
+        <legend>Lets us know we can improve freeCodeCamp</legend>
+        <table>
+          <tr>
+            <td>
+              <label for="userName">Name :</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="userName"
+                placeholder="Enter your name"
+                name=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userEmail">Email :</label>
+            </td>
+            <td>
+              <input
+                type="email"
+                id="userEmail"
+                placeholder="xyz@gmail.com"
+                name=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userAge">Age :</label>
+            </td>
+            <td>
+              <input
+                type="number"
+                placeholder="Age"
+                min="10"
+                max="60"
+                id="userAge"
+                name=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userRole"
+                >which option best describes you current role?</label
+              >
+            </td>
+            <td>
+              <select name="" id="userRole">
+                <option>Student</option>
+                <option>Intern</option>
+                <option>Professional</option>
+                <option>Teacher</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="toRecommend">
+                How likely is that you would recommend<br />
+                free code camp to a friend?
+              </label>
+            </td>
+            <td>
+              <input type="radio" id="toRecommend" name="recommend" />
+              <label for="toRecommend">Definitely</label>
+              <br />
+              <input type="radio" id="maybe" name="recommend" />
+              <label for="maybe">Maybe</label>
+              <br />
+              <input type="radio" id="notSure" name="recommend" />
+              <label for="notSure">Not Sure</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userMostliked">What do you like most in FCC :</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="userMostliked"
+                list="mostLikedcontent"
+                placeholder="Select an option"
+                name=""
+              />
+              <datalist id="mostLikedcontent">
+                <option>Html</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>NodeJs</option>
+                <option>DataBases</option>
+                <option>System Design</option>
+                <option>DSA</option>
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userFeedback">
+                Things that should be improved in <br />
+                the future(check all that apply)
+              </label>
+            </td>
+            <td>
+              <input type="checkbox" id="frontend" name="improvement" />
+              <label for="frontend">Front-end Projects</label>
+              <br />
+              <input type="checkbox" id="backend" name="improvement" />
+              <label for="backend">Back-end Projects</label>
+              <br />
+              <input type="checkbox" id="datavisul" name="improvement" />
+              <label for="datavisul">Data Visualization</label>
+              <br />
+              <input type="checkbox" id="challenges" name="improvement" />
+              <label for="challenges">Challenges</label>
+              <br />
+              <input type="checkbox" id="openSource" name="improvement" />
+              <label for="openSource">Open Source Community</label>
+              <br />
+              <input type="checkbox" id="videos" name="improvement" />
+              <label for="videos">Videos</label>
+              <br />
+              <input type="checkbox" id="additionalCourse" name="improvement" />
+              <label for="additionalCourse">AdditionalCourses</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="userSuggestions">Any Comments or Suggestions?</label>
+            </td>
+            <td>
+              <textarea
+                name=""
+                id="userSuggestions"
+                placeholder="Enter you comment here..."
+                rows="8"
+                cols="25"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+        <input type="submit" value="Submit Form" />
+        <input type="reset" value="Reset Form" />
+      </fieldset>
+    </form>
+  </body>
+</html>
