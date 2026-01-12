@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(67, 64, 64);
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.name {
+  width: 1000px;
+  height: 350px;
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px white inset;
+}
+h1 {
+  width: 800px;
+  height: 100px;
+  font-size: 70px;
+  font-weight: 400;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px white inset;
+  text-align: center;
+  line-height: 100px;
+  margin: 30px auto;
+}
+.role {
+  width: 600px;
+  height: 40px;
+  margin: 10px auto;
+}
+.name p {
+  width: 700px;
+  font-size: 20px;
+  margin: 10px auto;
+}
+.contact {
+  width: 1000px;
+  height: 400px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px white inset;
+  margin: 10px auto;
+}
+.contact h2 {
+  width: 450px;
+  height: 50px;
+  box-shadow: 5px 5px 5px white inset;
+  font-size: 40px;
+  margin: 40px 150px;
+}
+.contact .address {
+  width: 600px;
+  height: 200px;
+  margin: 0px auto;
+}
+.contact p {
+  font-size: 25px;
+  line-height: 40px;
+}
+.skills {
+  width: 1000px;
+  height: 900px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px white inset;
+  margin: 10px auto;
+}
+.skills h2 {
+  width: 120px;
+  height: 50px;
+  box-shadow: 5px 5px 5px white inset;
+  font-size: 40px;
+  margin: 40px 150px;
+}
+.skills ol {
+  width: 400px;
+  height: 400px;
+  margin: 40px 170px;
+  font-size: 25px;
+  line-height: 40px;
+}
+.skills li {
+  margin: 0 50px;
+}
+.education {
+  width: 1000px;
+  height: 375px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px white inset;
+  margin: 10px auto;
+}
+.education h2 {
+  width: 220px;
+  height: 50px;
+  box-shadow: 5px 5px 5px white inset;
+  font-size: 40px;
+  margin: 40px 150px;
+}
+.education dl {
+  font-size: 25px;
+  width: 700px;
+  height: 200px;
+  margin: 0px 0px 0px 200px;
+  line-height: 40px;
+}
+.project {
+  width: 1000px;
+  height: 1300px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px white inset;
+  margin: 10px auto;
+}
+.project h2{
+  width: 200px;
+  height: 50px;
+  box-shadow: 5px 5px 5px white inset;
+  font-size: 40px;
+  margin: 40px 150px;
+}
+.project article{
+    
+  width: 700px;
+  height: 900px;
+  margin: 0 180px;
+  font-size: 25px;
+  line-height: 40px;
+}
+.project li{
+    margin: 0 50px;
+}
+footer{
+    
+  width: 1000px;
+  height: 250px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px white inset;
+  margin: 10px auto;
+}
+footer p{
+    width: 600px;
+    font-size: 25px;
+    margin: 40px auto;
+}
